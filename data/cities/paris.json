@@ -1,0 +1,900 @@
+[
+  {
+    "id": "par_001",
+    "name": "Eiffel Tower",
+    "city": "Paris",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "category": "landmark",
+    "tags": ["iconic", "romantic", "viewpoint"],
+    "avg_cost_usd": 30,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [9, 23], "tue": [9, 23], "wed": [9, 23],
+      "thu": [9, 23], "fri": [9, 23], "sat": [9, 23], "sun": [9, 23]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_002",
+    "name": "Louvre Museum",
+    "city": "Paris",
+    "lat": 48.8606,
+    "lon": 2.3376,
+    "category": "museum",
+    "tags": ["art", "history", "iconic", "world-class"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 180,
+    "opening_hours": {
+      "mon": [9, 18], "wed": [9, 21], "thu": [9, 18],
+      "fri": [9, 21], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_003",
+    "name": "Notre-Dame Cathedral",
+    "city": "Paris",
+    "lat": 48.8530,
+    "lon": 2.3499,
+    "category": "religious",
+    "tags": ["gothic", "iconic", "history"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 18], "tue": [8, 18], "wed": [8, 18],
+      "thu": [8, 18], "fri": [8, 18], "sat": [8, 18], "sun": [8, 18]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_004",
+    "name": "Sacré-Cœur Basilica",
+    "city": "Paris",
+    "lat": 48.8867,
+    "lon": 2.3431,
+    "category": "religious",
+    "tags": ["viewpoint", "montmartre", "spiritual"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [6, 22], "tue": [6, 22], "wed": [6, 22],
+      "thu": [6, 22], "fri": [6, 22], "sat": [6, 22], "sun": [6, 22]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_005",
+    "name": "Musée d'Orsay",
+    "city": "Paris",
+    "lat": 48.8600,
+    "lon": 2.3266,
+    "category": "museum",
+    "tags": ["impressionism", "art", "iconic"],
+    "avg_cost_usd": 16,
+    "avg_duration_minutes": 150,
+    "opening_hours": {
+      "tue": [9, 18], "wed": [9, 21], "thu": [9, 18],
+      "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.8,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_006",
+    "name": "Arc de Triomphe",
+    "city": "Paris",
+    "lat": 48.8738,
+    "lon": 2.2950,
+    "category": "landmark",
+    "tags": ["iconic", "viewpoint", "napoleon"],
+    "avg_cost_usd": 13,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 22], "tue": [10, 22], "wed": [10, 22],
+      "thu": [10, 22], "fri": [10, 22], "sat": [10, 22], "sun": [10, 22]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_007",
+    "name": "Centre Pompidou",
+    "city": "Paris",
+    "lat": 48.8606,
+    "lon": 2.3522,
+    "category": "museum",
+    "tags": ["modern-art", "architecture", "contemporary"],
+    "avg_cost_usd": 15,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [11, 21], "wed": [11, 21], "thu": [11, 21],
+      "fri": [11, 21], "sat": [11, 21], "sun": [11, 21]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_008",
+    "name": "Palais Royal Gardens",
+    "city": "Paris",
+    "lat": 48.8638,
+    "lon": 2.3369,
+    "category": "nature",
+    "tags": ["gardens", "historic", "peaceful"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [8, 22], "tue": [8, 22], "wed": [8, 22],
+      "thu": [8, 22], "fri": [8, 22], "sat": [8, 22], "sun": [8, 22]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_009",
+    "name": "Jardin des Tuileries",
+    "city": "Paris",
+    "lat": 48.8634,
+    "lon": 2.3274,
+    "category": "nature",
+    "tags": ["gardens", "park", "stroll"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_010",
+    "name": "Sainte-Chapelle",
+    "city": "Paris",
+    "lat": 48.8554,
+    "lon": 2.3450,
+    "category": "religious",
+    "tags": ["gothic", "stained-glass", "medieval"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_011",
+    "name": "Musée Rodin",
+    "city": "Paris",
+    "lat": 48.8552,
+    "lon": 2.3154,
+    "category": "museum",
+    "tags": ["sculpture", "art", "garden"],
+    "avg_cost_usd": 13,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 18], "thu": [10, 18],
+      "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_012",
+    "name": "Jardin du Luxembourg",
+    "city": "Paris",
+    "lat": 48.8462,
+    "lon": 2.3372,
+    "category": "nature",
+    "tags": ["park", "fountain", "relaxing", "picnic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_013",
+    "name": "Opéra Garnier",
+    "city": "Paris",
+    "lat": 48.8719,
+    "lon": 2.3316,
+    "category": "cultural",
+    "tags": ["baroque", "opera", "architecture"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 17], "tue": [10, 17], "wed": [10, 17],
+      "thu": [10, 17], "fri": [10, 17], "sat": [10, 17], "sun": [10, 17]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_014",
+    "name": "Place des Vosges",
+    "city": "Paris",
+    "lat": 48.8554,
+    "lon": 2.3625,
+    "category": "landmark",
+    "tags": ["historic", "square", "marais"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [8, 21], "tue": [8, 21], "wed": [8, 21],
+      "thu": [8, 21], "fri": [8, 21], "sat": [8, 21], "sun": [8, 21]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_015",
+    "name": "Musée Picasso",
+    "city": "Paris",
+    "lat": 48.8596,
+    "lon": 2.3624,
+    "category": "museum",
+    "tags": ["picasso", "cubism", "art"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 18], "thu": [10, 18],
+      "fri": [10, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "par_016",
+    "name": "Musée du Quai Branly",
+    "city": "Paris",
+    "lat": 48.8600,
+    "lon": 2.2964,
+    "category": "museum",
+    "tags": ["indigenous", "ethnology", "world-cultures"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [11, 19], "wed": [11, 21], "thu": [11, 19],
+      "fri": [11, 21], "sat": [11, 19], "sun": [11, 19]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_017",
+    "name": "Les Invalides",
+    "city": "Paris",
+    "lat": 48.8556,
+    "lon": 2.3124,
+    "category": "landmark",
+    "tags": ["napoleon", "military", "history"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_018",
+    "name": "Champs-Élysées",
+    "city": "Paris",
+    "lat": 48.8698,
+    "lon": 2.3079,
+    "category": "landmark",
+    "tags": ["boulevard", "shopping", "iconic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_019",
+    "name": "Tour Montparnasse",
+    "city": "Paris",
+    "lat": 48.8422,
+    "lon": 2.3219,
+    "category": "landmark",
+    "tags": ["viewpoint", "panorama", "skyline"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 23], "tue": [9, 23], "wed": [9, 23],
+      "thu": [9, 23], "fri": [9, 23], "sat": [9, 23], "sun": [9, 23]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_020",
+    "name": "Catacombes de Paris",
+    "city": "Paris",
+    "lat": 48.8336,
+    "lon": 2.3325,
+    "category": "adventure",
+    "tags": ["underground", "history", "macabre", "unique"],
+    "avg_cost_usd": 15,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 20], "wed": [9, 20], "thu": [9, 20],
+      "fri": [9, 20], "sat": [9, 20], "sun": [9, 20]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "par_021",
+    "name": "Musée de l'Orangerie",
+    "city": "Paris",
+    "lat": 48.8638,
+    "lon": 2.3225,
+    "category": "museum",
+    "tags": ["monet", "impressionism", "art", "water-lilies"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [9, 18], "wed": [9, 18], "thu": [9, 18],
+      "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_022",
+    "name": "Galeries Lafayette",
+    "city": "Paris",
+    "lat": 48.8736,
+    "lon": 2.3319,
+    "category": "shopping",
+    "tags": ["luxury", "fashion", "department-store"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 20], "sat": [10, 21], "sun": [11, 19]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_023",
+    "name": "Le Bon Marché",
+    "city": "Paris",
+    "lat": 48.8492,
+    "lon": 2.3244,
+    "category": "shopping",
+    "tags": ["luxury", "department-store", "gourmet"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 21], "sat": [9, 21], "sun": [11, 20]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_024",
+    "name": "Place Vendôme",
+    "city": "Paris",
+    "lat": 48.8686,
+    "lon": 2.3295,
+    "category": "landmark",
+    "tags": ["luxury", "historic", "square"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_025",
+    "name": "Palais de Chaillot",
+    "city": "Paris",
+    "lat": 48.8638,
+    "lon": 2.2875,
+    "category": "cultural",
+    "tags": ["eiffel-view", "architecture", "museums"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_026",
+    "name": "Fondation Louis Vuitton",
+    "city": "Paris",
+    "lat": 48.8766,
+    "lon": 2.2619,
+    "category": "museum",
+    "tags": ["modern-art", "architecture", "frank-gehry"],
+    "avg_cost_usd": 16,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [11, 20], "wed": [11, 20], "thu": [11, 20],
+      "fri": [11, 21], "sat": [11, 21], "sun": [11, 20]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_027",
+    "name": "Bois de Boulogne",
+    "city": "Paris",
+    "lat": 48.8654,
+    "lon": 2.2475,
+    "category": "nature",
+    "tags": ["forest", "park", "lake", "cycling"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [6, 22], "tue": [6, 22], "wed": [6, 22],
+      "thu": [6, 22], "fri": [6, 22], "sat": [6, 22], "sun": [6, 22]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_028",
+    "name": "Parc Montsouris",
+    "city": "Paris",
+    "lat": 48.8218,
+    "lon": 2.3378,
+    "category": "nature",
+    "tags": ["park", "lake", "peaceful"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_029",
+    "name": "Père Lachaise Cemetery",
+    "city": "Paris",
+    "lat": 48.8609,
+    "lon": 2.3966,
+    "category": "cultural",
+    "tags": ["cemetery", "history", "famous-graves"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 18], "tue": [8, 18], "wed": [8, 18],
+      "thu": [8, 18], "fri": [8, 18], "sat": [8, 18], "sun": [9, 18]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_030",
+    "name": "Canal Saint-Martin",
+    "city": "Paris",
+    "lat": 48.8713,
+    "lon": 2.3624,
+    "category": "nature",
+    "tags": ["canal", "stroll", "hipster", "cafés"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_031",
+    "name": "Moulin Rouge",
+    "city": "Paris",
+    "lat": 48.8842,
+    "lon": 2.3324,
+    "category": "nightlife",
+    "tags": ["cabaret", "iconic", "show"],
+    "avg_cost_usd": 100,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [19, 23], "tue": [19, 23], "wed": [19, 23],
+      "thu": [19, 23], "fri": [19, 23], "sat": [19, 23], "sun": [19, 23]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "par_032",
+    "name": "Parc de la Villette",
+    "city": "Paris",
+    "lat": 48.8932,
+    "lon": 2.3937,
+    "category": "nature",
+    "tags": ["park", "science-museum", "concerts"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 22], "tue": [8, 22], "wed": [8, 22],
+      "thu": [8, 22], "fri": [8, 22], "sat": [8, 22], "sun": [8, 22]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_033",
+    "name": "Café de Flore",
+    "city": "Paris",
+    "lat": 48.8540,
+    "lon": 2.3329,
+    "category": "food",
+    "tags": ["café", "literary", "saint-germain", "historic"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 1], "tue": [7, 1], "wed": [7, 1],
+      "thu": [7, 1], "fri": [7, 1], "sat": [7, 1], "sun": [7, 1]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_034",
+    "name": "L'As du Fallafel",
+    "city": "Paris",
+    "lat": 48.8570,
+    "lon": 2.3580,
+    "category": "food",
+    "tags": ["falafel", "marais", "street-food", "cheap"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "sun": [11, 23], "mon": [11, 23], "tue": [11, 23],
+      "wed": [11, 23], "thu": [11, 23]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_035",
+    "name": "Marché Bastille",
+    "city": "Paris",
+    "lat": 48.8521,
+    "lon": 2.3692,
+    "category": "food",
+    "tags": ["market", "local", "fresh-produce"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "thu": [7, 14], "sat": [7, 14]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_036",
+    "name": "Marché aux Puces de Saint-Ouen",
+    "city": "Paris",
+    "lat": 48.9019,
+    "lon": 2.3430,
+    "category": "shopping",
+    "tags": ["flea-market", "antiques", "vintage"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "sat": [9, 18], "sun": [10, 17], "mon": [11, 17]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_037",
+    "name": "Printemps Haussmann",
+    "city": "Paris",
+    "lat": 48.8752,
+    "lon": 2.3316,
+    "category": "shopping",
+    "tags": ["department-store", "fashion", "luxury"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 20], "sat": [9, 21], "sun": [11, 19]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_038",
+    "name": "Palais de Tokyo",
+    "city": "Paris",
+    "lat": 48.8645,
+    "lon": 2.2969,
+    "category": "museum",
+    "tags": ["contemporary-art", "evening", "late-night"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [12, 22], "wed": [12, 22], "thu": [12, 22],
+      "fri": [12, 22], "sat": [12, 22], "sun": [12, 22]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "par_039",
+    "name": "Musée Marmottan Monet",
+    "city": "Paris",
+    "lat": 48.8585,
+    "lon": 2.2750,
+    "category": "museum",
+    "tags": ["monet", "impressionism", "intimate"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 21], "thu": [10, 18],
+      "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_040",
+    "name": "Parc des Buttes-Chaumont",
+    "city": "Paris",
+    "lat": 48.8793,
+    "lon": 2.3827,
+    "category": "nature",
+    "tags": ["park", "lake", "hills", "picnic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_041",
+    "name": "Grande Mosquée de Paris",
+    "city": "Paris",
+    "lat": 48.8441,
+    "lon": 2.3578,
+    "category": "religious",
+    "tags": ["mosque", "moroccan", "architecture", "tea"],
+    "avg_cost_usd": 3,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [14, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_042",
+    "name": "Saint-Germain-des-Prés",
+    "city": "Paris",
+    "lat": 48.8542,
+    "lon": 2.3337,
+    "category": "cultural",
+    "tags": ["neighborhood", "intellectual", "cafés", "art"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_043",
+    "name": "Le Marais District",
+    "city": "Paris",
+    "lat": 48.8560,
+    "lon": 2.3548,
+    "category": "cultural",
+    "tags": ["neighborhood", "historic", "galleries", "jewish"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_044",
+    "name": "Place de la Bastille",
+    "city": "Paris",
+    "lat": 48.8533,
+    "lon": 2.3692,
+    "category": "landmark",
+    "tags": ["revolution", "historic", "square"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_045",
+    "name": "Musée de l'Armée",
+    "city": "Paris",
+    "lat": 48.8554,
+    "lon": 2.3122,
+    "category": "museum",
+    "tags": ["military", "history", "napoleon", "weapons"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 17], "tue": [10, 17], "wed": [10, 17],
+      "thu": [10, 17], "fri": [10, 17], "sat": [10, 17], "sun": [10, 17]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_046",
+    "name": "Aquarium de Paris - Cinéaqua",
+    "city": "Paris",
+    "lat": 48.8619,
+    "lon": 2.2933,
+    "category": "adventure",
+    "tags": ["aquarium", "marine-life", "sharks", "cinema"],
+    "avg_cost_usd": 22,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 19], "tue": [10, 19], "wed": [10, 19],
+      "thu": [10, 19], "fri": [10, 19], "sat": [10, 20], "sun": [10, 20]
+    },
+    "rating": 4.0,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_047",
+    "name": "Montmartre Quarter",
+    "city": "Paris",
+    "lat": 48.8856,
+    "lon": 2.3388,
+    "category": "cultural",
+    "tags": ["artists", "village", "bohemian", "viewpoint"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "par_048",
+    "name": "Brasserie Bofinger",
+    "city": "Paris",
+    "lat": 48.8528,
+    "lon": 2.3681,
+    "category": "food",
+    "tags": ["brasserie", "historic", "alsatian", "seafood"],
+    "avg_cost_usd": 45,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [12, 23], "tue": [12, 23], "wed": [12, 23],
+      "thu": [12, 23], "fri": [12, 23], "sat": [12, 23], "sun": [12, 23]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_049",
+    "name": "Bibliothèque nationale de France",
+    "city": "Paris",
+    "lat": 48.8310,
+    "lon": 2.3615,
+    "category": "cultural",
+    "tags": ["library", "architecture", "books", "modern"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "tue": [9, 20], "wed": [9, 20], "thu": [9, 20],
+      "fri": [9, 20], "sat": [9, 18], "sun": [13, 19]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "par_050",
+    "name": "Crazy Horse Paris",
+    "city": "Paris",
+    "lat": 48.8657,
+    "lon": 2.3034,
+    "category": "nightlife",
+    "tags": ["cabaret", "show", "burlesque"],
+    "avg_cost_usd": 90,
+    "avg_duration_minutes": 100,
+    "opening_hours": {
+      "mon": [19, 23], "tue": [19, 23], "wed": [19, 23],
+      "thu": [19, 23], "fri": [19, 23], "sat": [19, 23], "sun": [19, 23]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "tok_001",
+    "name": "Senso-ji Temple",
+    "city": "Tokyo",
+    "lat": 35.7148,
+    "lon": 139.7967,
+    "category": "religious",
+    "tags": ["buddhist", "iconic", "nakamise", "asakusa"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [6, 17], "tue": [6, 17], "wed": [6, 17],
+      "thu": [6, 17], "fri": [6, 17], "sat": [6, 17], "sun": [6, 17]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_002",
+    "name": "Tokyo Skytree",
+    "city": "Tokyo",
+    "lat": 35.7101,
+    "lon": 139.8107,
+    "category": "landmark",
+    "tags": ["tower", "viewpoint", "observation-deck"],
+    "avg_cost_usd": 25,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_003",
+    "name": "Tokyo Tower",
+    "city": "Tokyo",
+    "lat": 35.6586,
+    "lon": 139.7454,
+    "category": "landmark",
+    "tags": ["tower", "viewpoint", "iconic", "eiffel-inspired"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 22], "tue": [9, 22], "wed": [9, 22],
+      "thu": [9, 22], "fri": [9, 22], "sat": [9, 22], "sun": [9, 22]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_004",
+    "name": "Shibuya Crossing",
+    "city": "Tokyo",
+    "lat": 35.6595,
+    "lon": 139.7004,
+    "category": "landmark",
+    "tags": ["crossing", "iconic", "urban", "busiest"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_005",
+    "name": "Meiji Shrine",
+    "city": "Tokyo",
+    "lat": 35.6764,
+    "lon": 139.6993,
+    "category": "religious",
+    "tags": ["shinto", "forest", "harajuku", "peaceful"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [5, 18], "tue": [5, 18], "wed": [5, 18],
+      "thu": [5, 18], "fri": [5, 18], "sat": [5, 18], "sun": [5, 18]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_006",
+    "name": "Shinjuku Gyoen National Garden",
+    "city": "Tokyo",
+    "lat": 35.6851,
+    "lon": 139.7100,
+    "category": "nature",
+    "tags": ["gardens", "cherry-blossom", "peaceful"],
+    "avg_cost_usd": 4,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 16], "wed": [9, 16], "thu": [9, 16],
+      "fri": [9, 16], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_007",
+    "name": "Akihabara Electric Town",
+    "city": "Tokyo",
+    "lat": 35.7023,
+    "lon": 139.7745,
+    "category": "shopping",
+    "tags": ["electronics", "anime", "manga", "otaku"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 20], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_008",
+    "name": "Tsukiji Outer Market",
+    "city": "Tokyo",
+    "lat": 35.6654,
+    "lon": 139.7706,
+    "category": "food",
+    "tags": ["seafood", "sushi", "street-food", "tuna"],
+    "avg_cost_usd": 15,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [5, 14], "tue": [5, 14], "wed": [5, 14],
+      "fri": [5, 14], "sat": [5, 14], "sun": [5, 14]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_009",
+    "name": "Imperial Palace East Gardens",
+    "city": "Tokyo",
+    "lat": 35.6852,
+    "lon": 139.7528,
+    "category": "nature",
+    "tags": ["palace", "gardens", "imperial", "moat"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 16], "wed": [9, 16], "thu": [9, 16],
+      "fri": [9, 16], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_010",
+    "name": "Ueno Park",
+    "city": "Tokyo",
+    "lat": 35.7152,
+    "lon": 139.7713,
+    "category": "nature",
+    "tags": ["park", "zoo", "museums", "cherry-blossom"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [5, 23], "tue": [5, 23], "wed": [5, 23],
+      "thu": [5, 23], "fri": [5, 23], "sat": [5, 23], "sun": [5, 23]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_011",
+    "name": "Tokyo National Museum",
+    "city": "Tokyo",
+    "lat": 35.7190,
+    "lon": 139.7768,
+    "category": "museum",
+    "tags": ["japanese-art", "samurai", "artifacts", "history"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 20], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_012",
+    "name": "teamLab Borderless",
+    "city": "Tokyo",
+    "lat": 35.6257,
+    "lon": 139.7886,
+    "category": "cultural",
+    "tags": ["digital-art", "immersive", "interactive", "unique"],
+    "avg_cost_usd": 32,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 19], "wed": [10, 19], "thu": [10, 19],
+      "fri": [10, 21], "sat": [10, 21], "sun": [10, 19]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_013",
+    "name": "Roppongi Hills",
+    "city": "Tokyo",
+    "lat": 35.6605,
+    "lon": 139.7292,
+    "category": "cultural",
+    "tags": ["art-museum", "shopping", "city-view", "mori"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 22], "tue": [10, 22], "wed": [10, 22],
+      "thu": [10, 22], "fri": [10, 22], "sat": [10, 22], "sun": [10, 22]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_014",
+    "name": "Hamarikyu Gardens",
+    "city": "Tokyo",
+    "lat": 35.6600,
+    "lon": 139.7641,
+    "category": "nature",
+    "tags": ["garden", "teahouse", "bay", "tidal-pond"],
+    "avg_cost_usd": 4,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_015",
+    "name": "Yoyogi Park",
+    "city": "Tokyo",
+    "lat": 35.6720,
+    "lon": 139.6951,
+    "category": "nature",
+    "tags": ["park", "picnic", "musicians", "harajuku"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [5, 20], "tue": [5, 20], "wed": [5, 20],
+      "thu": [5, 20], "fri": [5, 20], "sat": [5, 20], "sun": [5, 20]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_016",
+    "name": "Ginza Shopping District",
+    "city": "Tokyo",
+    "lat": 35.6713,
+    "lon": 139.7654,
+    "category": "shopping",
+    "tags": ["luxury", "galleries", "restaurants", "upscale"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [11, 21], "tue": [11, 21], "wed": [11, 21],
+      "thu": [11, 21], "fri": [11, 21], "sat": [11, 21], "sun": [11, 21]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_017",
+    "name": "Nakameguro Canal",
+    "city": "Tokyo",
+    "lat": 35.6440,
+    "lon": 139.6986,
+    "category": "cultural",
+    "tags": ["canal", "cafes", "cherry-blossom", "hipster"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_018",
+    "name": "Edo-Tokyo Museum",
+    "city": "Tokyo",
+    "lat": 35.6966,
+    "lon": 139.7972,
+    "category": "museum",
+    "tags": ["history", "edo-period", "dioramas", "culture"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 20], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_019",
+    "name": "Mori Art Museum",
+    "city": "Tokyo",
+    "lat": 35.6605,
+    "lon": 139.7292,
+    "category": "museum",
+    "tags": ["contemporary-art", "city-view", "roppongi"],
+    "avg_cost_usd": 18,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 17], "wed": [10, 22], "thu": [10, 22],
+      "fri": [10, 22], "sat": [10, 17], "sun": [10, 17]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "tok_020",
+    "name": "Yanaka Old Town",
+    "city": "Tokyo",
+    "lat": 35.7270,
+    "lon": 139.7685,
+    "category": "cultural",
+    "tags": ["old-town", "shitamachi", "temples", "shopping-street"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_021",
+    "name": "Odaiba Seaside Park",
+    "city": "Tokyo",
+    "lat": 35.6269,
+    "lon": 139.7766,
+    "category": "beach",
+    "tags": ["bay", "rainbow-bridge-view", "futuristic", "teamlab"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_022",
+    "name": "Sumida Aquarium",
+    "city": "Tokyo",
+    "lat": 35.7101,
+    "lon": 139.8107,
+    "category": "adventure",
+    "tags": ["aquarium", "jellyfish", "penguins", "skytree"],
+    "avg_cost_usd": 22,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 20], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_023",
+    "name": "Shimokitazawa",
+    "city": "Tokyo",
+    "lat": 35.6615,
+    "lon": 139.6672,
+    "category": "cultural",
+    "tags": ["vintage", "theater", "indie-music", "cafes"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_024",
+    "name": "Ramen Museum Shinyokohama",
+    "city": "Tokyo",
+    "lat": 35.5075,
+    "lon": 139.6132,
+    "category": "food",
+    "tags": ["ramen", "museum", "underground", "retro-tokyo"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [11, 21], "tue": [11, 21], "wed": [11, 21],
+      "thu": [11, 21], "fri": [11, 22], "sat": [10, 22], "sun": [10, 21]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_025",
+    "name": "Kagurazaka",
+    "city": "Tokyo",
+    "lat": 35.7021,
+    "lon": 139.7422,
+    "category": "cultural",
+    "tags": ["french-japanese", "cobblestone", "geisha", "restaurants"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_026",
+    "name": "Tokyo DisneySea",
+    "city": "Tokyo",
+    "lat": 35.6267,
+    "lon": 139.8857,
+    "category": "adventure",
+    "tags": ["theme-park", "disney", "family", "unique"],
+    "avg_cost_usd": 85,
+    "avg_duration_minutes": 480,
+    "opening_hours": {
+      "mon": [9, 21], "tue": [9, 21], "wed": [9, 21],
+      "thu": [9, 21], "fri": [9, 21], "sat": [9, 22], "sun": [9, 22]
+    },
+    "rating": 4.7,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_027",
+    "name": "Shinjuku Golden Gai",
+    "city": "Tokyo",
+    "lat": 35.6938,
+    "lon": 139.7034,
+    "category": "nightlife",
+    "tags": ["tiny-bars", "izakaya", "golden-gai", "unique"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [18, 2], "tue": [18, 2], "wed": [18, 2],
+      "thu": [18, 2], "fri": [18, 3], "sat": [18, 3], "sun": [18, 1]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "tok_028",
+    "name": "Harajuku Takeshita Street",
+    "city": "Tokyo",
+    "lat": 35.6702,
+    "lon": 139.7026,
+    "category": "shopping",
+    "tags": ["kawaii", "fashion", "crepes", "youth-culture"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_029",
+    "name": "Kabukicho Entertainment District",
+    "city": "Tokyo",
+    "lat": 35.6962,
+    "lon": 139.7032,
+    "category": "nightlife",
+    "tags": ["entertainment", "neon", "restaurants", "arcades"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": false
+  },
+  {
+    "id": "tok_030",
+    "name": "National Museum of Nature and Science",
+    "city": "Tokyo",
+    "lat": 35.7165,
+    "lon": 139.7750,
+    "category": "museum",
+    "tags": ["science", "dinosaurs", "natural-history", "ueno"],
+    "avg_cost_usd": 7,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 20], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_031",
+    "name": "Shinjuku Omoide Yokocho",
+    "city": "Tokyo",
+    "lat": 35.6938,
+    "lon": 139.7000,
+    "category": "food",
+    "tags": ["yakitori", "izakaya", "alley", "retro"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [17, 1], "tue": [17, 1], "wed": [17, 1],
+      "thu": [17, 1], "fri": [17, 2], "sat": [17, 2], "sun": [14, 23]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "tok_032",
+    "name": "Asakusa Culture Tourist Center",
+    "city": "Tokyo",
+    "lat": 35.7115,
+    "lon": 139.7965,
+    "category": "cultural",
+    "tags": ["free-viewpoint", "asakusa-view", "tourist-info"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [9, 20], "tue": [9, 20], "wed": [9, 20],
+      "thu": [9, 20], "fri": [9, 20], "sat": [9, 20], "sun": [9, 20]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_033",
+    "name": "Hinode Pier River Cruise",
+    "city": "Tokyo",
+    "lat": 35.6533,
+    "lon": 139.7571,
+    "category": "adventure",
+    "tags": ["water-bus", "cruise", "river", "odaiba"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_034",
+    "name": "Ikebukuro Sunshine City",
+    "city": "Tokyo",
+    "lat": 35.7301,
+    "lon": 139.7197,
+    "category": "shopping",
+    "tags": ["mall", "aquarium", "planetarium", "anime"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_035",
+    "name": "Zojoji Temple",
+    "city": "Tokyo",
+    "lat": 35.6558,
+    "lon": 139.7488,
+    "category": "religious",
+    "tags": ["buddhist", "tokyo-tower-view", "historic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [6, 17], "tue": [6, 17], "wed": [6, 17],
+      "thu": [6, 17], "fri": [6, 17], "sat": [6, 17], "sun": [6, 17]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_036",
+    "name": "Tsukiji Hongan-ji Temple",
+    "city": "Tokyo",
+    "lat": 35.6658,
+    "lon": 139.7715,
+    "category": "religious",
+    "tags": ["jodo-shinshu", "indian-architecture", "unique"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [6, 16], "tue": [6, 16], "wed": [6, 16],
+      "thu": [6, 16], "fri": [6, 16], "sat": [6, 16], "sun": [6, 16]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_037",
+    "name": "Akasaka Sacas",
+    "city": "Tokyo",
+    "lat": 35.6743,
+    "lon": 139.7374,
+    "category": "cultural",
+    "tags": ["entertainment-complex", "tbs", "restaurants"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [11, 23], "tue": [11, 23], "wed": [11, 23],
+      "thu": [11, 23], "fri": [11, 23], "sat": [11, 23], "sun": [11, 22]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_038",
+    "name": "Ichiran Ramen Shibuya",
+    "city": "Tokyo",
+    "lat": 35.6581,
+    "lon": 139.7021,
+    "category": "food",
+    "tags": ["ramen", "solo-booth", "tonkotsu", "24h"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_039",
+    "name": "Senso-ji Nakamise Shopping Street",
+    "city": "Tokyo",
+    "lat": 35.7136,
+    "lon": 139.7967,
+    "category": "shopping",
+    "tags": ["traditional", "souvenirs", "snacks", "asakusa"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "tok_040",
+    "name": "Fuji TV Odaiba",
+    "city": "Tokyo",
+    "lat": 35.6300,
+    "lon": 139.7740,
+    "category": "landmark",
+    "tags": ["futuristic", "observation", "tv-station", "odaiba"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 18], "thu": [10, 18],
+      "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.0,
+    "indoor": true,
+    "family_friendly": true
+  }
+]

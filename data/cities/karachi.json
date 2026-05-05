@@ -1,0 +1,721 @@
+[
+  {
+    "id": "khi_001",
+    "name": "Mazar-e-Quaid (Quaid's Mausoleum)",
+    "city": "Karachi",
+    "lat": 24.8742,
+    "lon": 67.0484,
+    "category": "landmark",
+    "tags": ["mausoleum", "pakistan-founder", "iconic", "historic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 18], "tue": [8, 18], "wed": [8, 18],
+      "thu": [8, 18], "fri": [8, 18], "sat": [8, 18], "sun": [8, 18]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_002",
+    "name": "Clifton Beach",
+    "city": "Karachi",
+    "lat": 24.8176,
+    "lon": 67.0278,
+    "category": "beach",
+    "tags": ["beach", "camel-ride", "food-stalls", "sunset"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [6, 22], "tue": [6, 22], "wed": [6, 22],
+      "thu": [6, 22], "fri": [6, 23], "sat": [6, 23], "sun": [6, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_003",
+    "name": "Mohatta Palace Museum",
+    "city": "Karachi",
+    "lat": 24.8196,
+    "lon": 67.0295,
+    "category": "museum",
+    "tags": ["colonial", "architecture", "art", "history"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "tue": [10, 17], "wed": [10, 17], "thu": [10, 17],
+      "fri": [10, 17], "sat": [10, 17], "sun": [10, 17]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_004",
+    "name": "Frere Hall",
+    "city": "Karachi",
+    "lat": 24.8538,
+    "lon": 67.0264,
+    "category": "cultural",
+    "tags": ["colonial", "saddar", "library", "exhibition"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [9, 18], "sat": [9, 17]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_005",
+    "name": "Empress Market",
+    "city": "Karachi",
+    "lat": 24.8624,
+    "lon": 67.0217,
+    "category": "shopping",
+    "tags": ["historic-market", "saddar", "victorian", "spices"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 20], "tue": [8, 20], "wed": [8, 20],
+      "thu": [8, 20], "fri": [8, 20], "sat": [8, 20], "sun": [8, 20]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_006",
+    "name": "Pakistan Maritime Museum",
+    "city": "Karachi",
+    "lat": 24.8389,
+    "lon": 66.9878,
+    "category": "museum",
+    "tags": ["navy", "ships", "weapons", "history"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 16], "wed": [9, 16], "thu": [9, 16],
+      "fri": [9, 11], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.0,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_007",
+    "name": "Port Grand Food & Entertainment Complex",
+    "city": "Karachi",
+    "lat": 24.8420,
+    "lon": 66.9950,
+    "category": "food",
+    "tags": ["waterfront", "restaurants", "entertainment", "sea-view"],
+    "avg_cost_usd": 15,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [17, 24], "tue": [17, 24], "wed": [17, 24],
+      "thu": [17, 1], "fri": [17, 1], "sat": [12, 1], "sun": [12, 24]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_008",
+    "name": "National Museum of Pakistan",
+    "city": "Karachi",
+    "lat": 24.8571,
+    "lon": 67.0157,
+    "category": "museum",
+    "tags": ["gandhara", "indus-valley", "islamic-art", "history"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [9, 16], "tue": [9, 16], "wed": [9, 16],
+      "thu": [9, 16], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.1,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_009",
+    "name": "Burns Road Food Street",
+    "city": "Karachi",
+    "lat": 24.8698,
+    "lon": 67.0208,
+    "category": "food",
+    "tags": ["street-food", "nihari", "halwa-puri", "famous"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [7, 3], "tue": [7, 3], "wed": [7, 3],
+      "thu": [7, 3], "fri": [7, 4], "sat": [7, 4], "sun": [7, 3]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_010",
+    "name": "Bar B.Q. Tonight",
+    "city": "Karachi",
+    "lat": 24.8181,
+    "lon": 67.0279,
+    "category": "food",
+    "tags": ["bbq", "clifton", "sea-view", "outdoor"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [12, 1], "tue": [12, 1], "wed": [12, 1],
+      "thu": [12, 1], "fri": [12, 2], "sat": [12, 2], "sun": [12, 1]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_011",
+    "name": "Bagh Ibn Qasim (Clifton Park)",
+    "city": "Karachi",
+    "lat": 24.8176,
+    "lon": 67.0278,
+    "category": "nature",
+    "tags": ["park", "sea-view", "family", "walks"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 22], "tue": [7, 22], "wed": [7, 22],
+      "thu": [7, 22], "fri": [7, 23], "sat": [7, 23], "sun": [7, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_012",
+    "name": "Chaukhandi Tombs",
+    "city": "Karachi",
+    "lat": 24.9833,
+    "lon": 67.2667,
+    "category": "cultural",
+    "tags": ["medieval", "sandstone", "carved-tombs", "unique"],
+    "avg_cost_usd": 2,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [8, 17], "tue": [8, 17], "wed": [8, 17],
+      "thu": [8, 17], "fri": [8, 12], "sat": [8, 17], "sun": [8, 17]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_013",
+    "name": "Do Darya Restaurant Row",
+    "city": "Karachi",
+    "lat": 24.8361,
+    "lon": 66.9918,
+    "category": "food",
+    "tags": ["seafood", "sea-view", "outdoor", "dha"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [12, 2], "tue": [12, 2], "wed": [12, 2],
+      "thu": [12, 2], "fri": [12, 3], "sat": [12, 3], "sun": [12, 2]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_014",
+    "name": "Karachi Zoological Garden",
+    "city": "Karachi",
+    "lat": 24.8611,
+    "lon": 67.0277,
+    "category": "adventure",
+    "tags": ["zoo", "animals", "family", "saddar"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 3.8,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_015",
+    "name": "Hill Park",
+    "city": "Karachi",
+    "lat": 24.8715,
+    "lon": 67.0548,
+    "category": "nature",
+    "tags": ["park", "viewpoint", "family", "hilly"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 22], "tue": [7, 22], "wed": [7, 22],
+      "thu": [7, 22], "fri": [7, 22], "sat": [7, 22], "sun": [7, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_016",
+    "name": "Masjid-e-Tooba (Round Mosque)",
+    "city": "Karachi",
+    "lat": 24.8265,
+    "lon": 67.0694,
+    "category": "religious",
+    "tags": ["mosque", "dome", "modern", "white-marble"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [5, 22], "tue": [5, 22], "wed": [5, 22],
+      "thu": [5, 22], "fri": [5, 22], "sat": [5, 22], "sun": [5, 22]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_017",
+    "name": "Dolmen Mall Clifton",
+    "city": "Karachi",
+    "lat": 24.8072,
+    "lon": 67.0279,
+    "category": "shopping",
+    "tags": ["mall", "brands", "cinema", "food-court"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [11, 23], "tue": [11, 23], "wed": [11, 23],
+      "thu": [11, 23], "fri": [11, 24], "sat": [11, 24], "sun": [11, 23]
+    },
+    "rating": 4.1,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_018",
+    "name": "Hawksbay Beach",
+    "city": "Karachi",
+    "lat": 24.7950,
+    "lon": 66.8330,
+    "category": "beach",
+    "tags": ["beach", "turtle-nesting", "clean", "day-trip"],
+    "avg_cost_usd": 2,
+    "avg_duration_minutes": 180,
+    "opening_hours": {
+      "mon": [6, 20], "tue": [6, 20], "wed": [6, 20],
+      "thu": [6, 20], "fri": [6, 21], "sat": [6, 21], "sun": [6, 20]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_019",
+    "name": "Saddar Bazaar",
+    "city": "Karachi",
+    "lat": 24.8624,
+    "lon": 67.0217,
+    "category": "shopping",
+    "tags": ["traditional", "wholesale", "fabric", "variety"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_020",
+    "name": "Kolachi Restaurant",
+    "city": "Karachi",
+    "lat": 24.8389,
+    "lon": 66.9878,
+    "category": "food",
+    "tags": ["seafood", "arabian-sea-view", "outdoor", "local"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [12, 1], "tue": [12, 1], "wed": [12, 1],
+      "thu": [12, 1], "fri": [12, 2], "sat": [12, 2], "sun": [12, 1]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_021",
+    "name": "Trinity Church Karachi",
+    "city": "Karachi",
+    "lat": 24.8624,
+    "lon": 67.0210,
+    "category": "religious",
+    "tags": ["colonial", "church", "gothic", "historic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [8, 17], "tue": [8, 17], "wed": [8, 17],
+      "thu": [8, 17], "fri": [8, 17], "sat": [8, 17], "sun": [8, 18]
+    },
+    "rating": 4.0,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_022",
+    "name": "Seaview Beach (DHA)",
+    "city": "Karachi",
+    "lat": 24.8079,
+    "lon": 67.0210,
+    "category": "beach",
+    "tags": ["beach", "dha", "evening", "food-stalls"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [7, 23], "tue": [7, 23], "wed": [7, 23],
+      "thu": [7, 23], "fri": [7, 24], "sat": [7, 24], "sun": [7, 23]
+    },
+    "rating": 3.9,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_023",
+    "name": "Benazir Bhutto Park",
+    "city": "Karachi",
+    "lat": 24.8850,
+    "lon": 67.0600,
+    "category": "nature",
+    "tags": ["park", "jogging", "family", "north-karachi"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [6, 22], "tue": [6, 22], "wed": [6, 22],
+      "thu": [6, 22], "fri": [6, 22], "sat": [6, 22], "sun": [6, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_024",
+    "name": "Zainab Market",
+    "city": "Karachi",
+    "lat": 24.8701,
+    "lon": 67.0258,
+    "category": "shopping",
+    "tags": ["electronics", "clothing", "bargaining", "saddar"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 3.9,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_025",
+    "name": "Do Darya Food Street",
+    "city": "Karachi",
+    "lat": 24.8322,
+    "lon": 67.0118,
+    "category": "food",
+    "tags": ["seafood", "sea-view", "evening", "barbecue"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [17, 1], "tue": [17, 1], "wed": [17, 1],
+      "thu": [17, 1], "fri": [17, 2], "sat": [17, 2], "sun": [17, 1]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_026",
+    "name": "Boat Basin",
+    "city": "Karachi",
+    "lat": 24.8319,
+    "lon": 67.0249,
+    "category": "food",
+    "tags": ["street-food", "evening", "chai", "clifton"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [16, 1], "tue": [16, 1], "wed": [16, 1],
+      "thu": [16, 1], "fri": [16, 2], "sat": [16, 2], "sun": [16, 1]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_027",
+    "name": "Karachi Gymkhana",
+    "city": "Karachi",
+    "lat": 24.8538,
+    "lon": 67.0198,
+    "category": "cultural",
+    "tags": ["colonial", "cricket", "heritage", "club"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [9, 22], "tue": [9, 22], "wed": [9, 22],
+      "thu": [9, 22], "fri": [9, 22], "sat": [9, 22], "sun": [9, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_028",
+    "name": "Lucky One Mall",
+    "city": "Karachi",
+    "lat": 24.9410,
+    "lon": 67.0500,
+    "category": "shopping",
+    "tags": ["mall", "brands", "cinema", "north-karachi"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [11, 23], "tue": [11, 23], "wed": [11, 23],
+      "thu": [11, 23], "fri": [11, 24], "sat": [11, 24], "sun": [11, 23]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_029",
+    "name": "Quaid-e-Azam House Museum",
+    "city": "Karachi",
+    "lat": 24.8177,
+    "lon": 67.0228,
+    "category": "museum",
+    "tags": ["jinnah", "colonial", "heritage", "historic-house"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 16], "tue": [9, 16], "wed": [9, 16],
+      "thu": [9, 16], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.1,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_030",
+    "name": "Safari Park Karachi",
+    "city": "Karachi",
+    "lat": 24.9320,
+    "lon": 67.1430,
+    "category": "adventure",
+    "tags": ["safari", "lions", "bears", "nature-drive"],
+    "avg_cost_usd": 3,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_031",
+    "name": "Nihari Mahal Burns Road",
+    "city": "Karachi",
+    "lat": 24.8700,
+    "lon": 67.0205,
+    "category": "food",
+    "tags": ["nihari", "breakfast", "local-legend", "authentic"],
+    "avg_cost_usd": 4,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [6, 13], "tue": [6, 13], "wed": [6, 13],
+      "thu": [6, 13], "fri": [6, 13], "sat": [6, 13], "sun": [6, 13]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_032",
+    "name": "Hawks Bay Beach",
+    "city": "Karachi",
+    "lat": 24.8500,
+    "lon": 66.9100,
+    "category": "adventure",
+    "tags": ["beach", "sea-turtles", "swimming", "weekend"],
+    "avg_cost_usd": 3,
+    "avg_duration_minutes": 150,
+    "opening_hours": {
+      "mon": [7, 19], "tue": [7, 19], "wed": [7, 19],
+      "thu": [7, 19], "fri": [7, 20], "sat": [7, 20], "sun": [7, 19]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_033",
+    "name": "Bin Qasim Park",
+    "city": "Karachi",
+    "lat": 24.7855,
+    "lon": 67.0011,
+    "category": "nature",
+    "tags": ["park", "picnic", "family", "lagoon"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [7, 22], "tue": [7, 22], "wed": [7, 22],
+      "thu": [7, 22], "fri": [7, 23], "sat": [7, 23], "sun": [7, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_034",
+    "name": "Village Restaurant",
+    "city": "Karachi",
+    "lat": 24.8711,
+    "lon": 67.0567,
+    "category": "food",
+    "tags": ["desi", "karahi", "traditional-decor", "popular"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [12, 1], "tue": [12, 1], "wed": [12, 1],
+      "thu": [12, 1], "fri": [12, 2], "sat": [12, 2], "sun": [12, 1]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_035",
+    "name": "DAP (Defence Authority Creeks Park)",
+    "city": "Karachi",
+    "lat": 24.8160,
+    "lon": 67.0694,
+    "category": "nature",
+    "tags": ["creek", "mangroves", "walking", "dha"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [7, 22], "tue": [7, 22], "wed": [7, 22],
+      "thu": [7, 22], "fri": [7, 22], "sat": [7, 22], "sun": [7, 22]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_036",
+    "name": "Pakistan Air Force Museum",
+    "city": "Karachi",
+    "lat": 24.8890,
+    "lon": 67.1400,
+    "category": "museum",
+    "tags": ["air-force", "planes", "history", "military"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 15], "wed": [9, 15], "thu": [9, 15],
+      "fri": [9, 11], "sat": [9, 15], "sun": [9, 15]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_037",
+    "name": "Mazar-e-Quaid Musical Fountain Show",
+    "city": "Karachi",
+    "lat": 24.8742,
+    "lon": 67.0484,
+    "category": "cultural",
+    "tags": ["fountain", "light-show", "evening", "free"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "fri": [20, 22], "sat": [20, 22], "sun": [20, 22]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_038",
+    "name": "Star Gate Restaurant",
+    "city": "Karachi",
+    "lat": 24.8200,
+    "lon": 67.0300,
+    "category": "food",
+    "tags": ["karahi", "rooftop", "clifton", "popular"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [12, 1], "tue": [12, 1], "wed": [12, 1],
+      "thu": [12, 1], "fri": [12, 2], "sat": [12, 2], "sun": [12, 1]
+    },
+    "rating": 4.1,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_039",
+    "name": "Forum Shopping Mall",
+    "city": "Karachi",
+    "lat": 24.8361,
+    "lon": 67.0660,
+    "category": "shopping",
+    "tags": ["mall", "clifton", "brands", "food-court"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [11, 23], "tue": [11, 23], "wed": [11, 23],
+      "thu": [11, 23], "fri": [11, 24], "sat": [11, 24], "sun": [11, 23]
+    },
+    "rating": 4.0,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "khi_040",
+    "name": "Karachi Lights (Boat Tour)",
+    "city": "Karachi",
+    "lat": 24.8350,
+    "lon": 66.9900,
+    "category": "adventure",
+    "tags": ["boat", "sea", "city-lights", "evening"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [18, 22], "tue": [18, 22], "wed": [18, 22],
+      "thu": [18, 22], "fri": [18, 23], "sat": [18, 23], "sun": [18, 22]
+    },
+    "rating": 4.0,
+    "indoor": false,
+    "family_friendly": true
+  }
+]

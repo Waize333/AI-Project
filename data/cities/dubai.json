@@ -1,0 +1,720 @@
+[
+  {
+    "id": "dxb_001",
+    "name": "Burj Khalifa",
+    "city": "Dubai",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "category": "landmark",
+    "tags": ["tallest-building", "iconic", "viewpoint"],
+    "avg_cost_usd": 35,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 23], "tue": [8, 23], "wed": [8, 23],
+      "thu": [8, 23], "fri": [8, 23], "sat": [8, 23], "sun": [8, 23]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_002",
+    "name": "Dubai Mall",
+    "city": "Dubai",
+    "lat": 25.1979,
+    "lon": 55.2793,
+    "category": "shopping",
+    "tags": ["world-largest-mall", "aquarium", "ice-rink", "fountain"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 180,
+    "opening_hours": {
+      "mon": [10, 24], "tue": [10, 24], "wed": [10, 24],
+      "thu": [10, 24], "fri": [10, 1], "sat": [10, 1], "sun": [10, 24]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_003",
+    "name": "Palm Jumeirah",
+    "city": "Dubai",
+    "lat": 25.1124,
+    "lon": 55.1390,
+    "category": "landmark",
+    "tags": ["artificial-island", "iconic", "beach", "atlantis"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_004",
+    "name": "Dubai Creek Heritage Area",
+    "city": "Dubai",
+    "lat": 25.2629,
+    "lon": 55.3010,
+    "category": "cultural",
+    "tags": ["creek", "abra", "heritage", "old-dubai"],
+    "avg_cost_usd": 2,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 22], "tue": [8, 22], "wed": [8, 22],
+      "thu": [8, 22], "fri": [8, 22], "sat": [8, 22], "sun": [8, 22]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_005",
+    "name": "Gold Souk",
+    "city": "Dubai",
+    "lat": 25.2697,
+    "lon": 55.3040,
+    "category": "shopping",
+    "tags": ["gold", "jewelry", "traditional", "deira"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 22], "tue": [10, 22], "wed": [10, 22],
+      "thu": [10, 22], "fri": [16, 22], "sat": [10, 22], "sun": [10, 22]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_006",
+    "name": "Spice Souk",
+    "city": "Dubai",
+    "lat": 25.2649,
+    "lon": 55.3007,
+    "category": "shopping",
+    "tags": ["spices", "aromatic", "traditional", "deira"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [10, 22], "tue": [10, 22], "wed": [10, 22],
+      "thu": [10, 22], "fri": [16, 22], "sat": [10, 22], "sun": [10, 22]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_007",
+    "name": "Dubai Museum",
+    "city": "Dubai",
+    "lat": 25.2632,
+    "lon": 55.2975,
+    "category": "museum",
+    "tags": ["history", "al-fahidi-fort", "culture", "old-dubai"],
+    "avg_cost_usd": 1,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 20], "tue": [8, 20], "wed": [8, 20],
+      "thu": [8, 20], "fri": [14, 20], "sat": [8, 20], "sun": [8, 20]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_008",
+    "name": "Burj Al Arab",
+    "city": "Dubai",
+    "lat": 25.1413,
+    "lon": 55.1853,
+    "category": "landmark",
+    "tags": ["7-star-hotel", "iconic", "sail-shaped", "helipad"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_009",
+    "name": "Dubai Marina Walk",
+    "city": "Dubai",
+    "lat": 25.0838,
+    "lon": 55.1396,
+    "category": "landmark",
+    "tags": ["marina", "yachts", "restaurants", "skyline"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_010",
+    "name": "Dubai Frame",
+    "city": "Dubai",
+    "lat": 25.2357,
+    "lon": 55.2994,
+    "category": "landmark",
+    "tags": ["frame", "viewpoint", "old-new-dubai", "architecture"],
+    "avg_cost_usd": 14,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 21], "tue": [9, 21], "wed": [9, 21],
+      "thu": [9, 21], "fri": [9, 21], "sat": [9, 21], "sun": [9, 21]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_011",
+    "name": "Miracle Garden",
+    "city": "Dubai",
+    "lat": 25.0593,
+    "lon": 55.2447,
+    "category": "nature",
+    "tags": ["flowers", "largest-flower-garden", "sculptures"],
+    "avg_cost_usd": 16,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [9, 21], "tue": [9, 21], "wed": [9, 21],
+      "thu": [9, 21], "fri": [9, 22], "sat": [9, 22], "sun": [9, 21]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_012",
+    "name": "Dubai Aquarium & Underwater Zoo",
+    "city": "Dubai",
+    "lat": 25.1979,
+    "lon": 55.2793,
+    "category": "adventure",
+    "tags": ["aquarium", "sharks", "ray", "tunnel"],
+    "avg_cost_usd": 30,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 24], "tue": [10, 24], "wed": [10, 24],
+      "thu": [10, 24], "fri": [10, 1], "sat": [10, 1], "sun": [10, 24]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_013",
+    "name": "Desert Safari",
+    "city": "Dubai",
+    "lat": 24.9000,
+    "lon": 55.5000,
+    "category": "adventure",
+    "tags": ["dune-bashing", "camel-ride", "bbq", "belly-dance"],
+    "avg_cost_usd": 55,
+    "avg_duration_minutes": 360,
+    "opening_hours": {
+      "mon": [15, 22], "tue": [15, 22], "wed": [15, 22],
+      "thu": [15, 22], "fri": [15, 22], "sat": [15, 22], "sun": [15, 22]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_014",
+    "name": "Atlantis Aquaventure Waterpark",
+    "city": "Dubai",
+    "lat": 25.1302,
+    "lon": 55.1172,
+    "category": "adventure",
+    "tags": ["waterpark", "slides", "beach", "thrills"],
+    "avg_cost_usd": 80,
+    "avg_duration_minutes": 360,
+    "opening_hours": {
+      "mon": [10, 19], "tue": [10, 19], "wed": [10, 19],
+      "thu": [10, 19], "fri": [10, 19], "sat": [10, 19], "sun": [10, 19]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_015",
+    "name": "Dubai Opera",
+    "city": "Dubai",
+    "lat": 25.1944,
+    "lon": 55.2717,
+    "category": "cultural",
+    "tags": ["opera", "dhow-shaped", "arts", "performances"],
+    "avg_cost_usd": 40,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 23], "tue": [10, 23], "wed": [10, 23],
+      "thu": [10, 23], "fri": [10, 23], "sat": [10, 23], "sun": [10, 23]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_016",
+    "name": "Souk Madinat Jumeirah",
+    "city": "Dubai",
+    "lat": 25.1220,
+    "lon": 55.1854,
+    "category": "shopping",
+    "tags": ["traditional-souk", "waterways", "burj-al-arab-view"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 23], "tue": [10, 23], "wed": [10, 23],
+      "thu": [10, 23], "fri": [10, 23], "sat": [10, 23], "sun": [10, 23]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_017",
+    "name": "JBR Beach (The Walk)",
+    "city": "Dubai",
+    "lat": 25.0724,
+    "lon": 55.1372,
+    "category": "beach",
+    "tags": ["beach", "promenade", "restaurants", "marina-view"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_018",
+    "name": "Kite Beach",
+    "city": "Dubai",
+    "lat": 25.1580,
+    "lon": 55.1895,
+    "category": "beach",
+    "tags": ["kite-surfing", "beach", "sports", "Burj-Al-Arab-view"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_019",
+    "name": "Al Fahidi Historical Neighbourhood",
+    "city": "Dubai",
+    "lat": 25.2632,
+    "lon": 55.2975,
+    "category": "cultural",
+    "tags": ["wind-towers", "old-dubai", "art-galleries", "historic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [8, 20], "tue": [8, 20], "wed": [8, 20],
+      "thu": [8, 20], "fri": [8, 20], "sat": [8, 20], "sun": [8, 20]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_020",
+    "name": "Jumeirah Mosque",
+    "city": "Dubai",
+    "lat": 25.2179,
+    "lon": 55.2414,
+    "category": "religious",
+    "tags": ["mosque", "open-to-visitors", "islamic-architecture"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "sat": [10, 11], "sun": [10, 11], "mon": [10, 11],
+      "tue": [10, 11], "wed": [10, 11], "thu": [10, 11]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_021",
+    "name": "Global Village",
+    "city": "Dubai",
+    "lat": 25.0700,
+    "lon": 55.3015,
+    "category": "cultural",
+    "tags": ["world-cultures", "food", "entertainment", "seasonal"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 180,
+    "opening_hours": {
+      "mon": [16, 24], "tue": [16, 24], "wed": [16, 24],
+      "thu": [16, 1], "fri": [16, 1], "sat": [16, 1], "sun": [16, 24]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_022",
+    "name": "At.mosphere Restaurant (Burj Khalifa 122F)",
+    "city": "Dubai",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "category": "food",
+    "tags": ["world-highest-restaurant", "fine-dining", "views"],
+    "avg_cost_usd": 100,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [12, 23], "tue": [12, 23], "wed": [12, 23],
+      "thu": [12, 23], "fri": [12, 23], "sat": [12, 23], "sun": [12, 23]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_023",
+    "name": "Dubai Fountain Show",
+    "city": "Dubai",
+    "lat": 25.1942,
+    "lon": 55.2744,
+    "category": "cultural",
+    "tags": ["fountain", "light-show", "burj-khalifa", "free"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [18, 23], "tue": [18, 23], "wed": [18, 23],
+      "thu": [18, 23], "fri": [13, 23], "sat": [13, 23], "sun": [18, 23]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_024",
+    "name": "Mall of the Emirates",
+    "city": "Dubai",
+    "lat": 25.1183,
+    "lon": 55.2003,
+    "category": "shopping",
+    "tags": ["mall", "ski-dubai", "fashion", "cinema"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 150,
+    "opening_hours": {
+      "mon": [10, 24], "tue": [10, 24], "wed": [10, 24],
+      "thu": [10, 24], "fri": [10, 1], "sat": [10, 1], "sun": [10, 24]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_025",
+    "name": "Ski Dubai",
+    "city": "Dubai",
+    "lat": 25.1183,
+    "lon": 55.2003,
+    "category": "adventure",
+    "tags": ["indoor-ski", "snow", "penguins", "unique"],
+    "avg_cost_usd": 80,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 23], "tue": [10, 23], "wed": [10, 23],
+      "thu": [10, 23], "fri": [10, 23], "sat": [10, 23], "sun": [10, 23]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_026",
+    "name": "Alserkal Avenue",
+    "city": "Dubai",
+    "lat": 25.1572,
+    "lon": 55.2257,
+    "category": "cultural",
+    "tags": ["art-district", "galleries", "cafes", "contemporary"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "sat": [10, 18], "sun": [12, 18]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_027",
+    "name": "Ras Al Khor Wildlife Sanctuary",
+    "city": "Dubai",
+    "lat": 25.1820,
+    "lon": 55.3610,
+    "category": "nature",
+    "tags": ["flamingos", "birds", "mangrove", "wildlife"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "sat": [7, 16], "sun": [7, 16], "mon": [7, 16],
+      "tue": [7, 16], "wed": [7, 16], "thu": [7, 16]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_028",
+    "name": "Dubai Design District (d3)",
+    "city": "Dubai",
+    "lat": 25.1930,
+    "lon": 55.2880,
+    "category": "cultural",
+    "tags": ["design", "fashion", "art", "restaurants"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 21], "sun": [10, 21]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_029",
+    "name": "Ravi Restaurant",
+    "city": "Dubai",
+    "lat": 25.2279,
+    "lon": 55.2621,
+    "category": "food",
+    "tags": ["pakistani", "cheap", "iconic", "local-favorite"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [7, 3], "tue": [7, 3], "wed": [7, 3],
+      "thu": [7, 3], "fri": [7, 4], "sat": [7, 4], "sun": [7, 3]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_030",
+    "name": "La Mer Beach",
+    "city": "Dubai",
+    "lat": 25.2079,
+    "lon": 55.2579,
+    "category": "beach",
+    "tags": ["beach", "hipster", "food-trucks", "waterpark"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_031",
+    "name": "IMG Worlds of Adventure",
+    "city": "Dubai",
+    "lat": 25.0702,
+    "lon": 55.3006,
+    "category": "adventure",
+    "tags": ["theme-park", "marvel", "cartoon-network", "indoor"],
+    "avg_cost_usd": 75,
+    "avg_duration_minutes": 360,
+    "opening_hours": {
+      "mon": [11, 22], "tue": [11, 22], "wed": [11, 22],
+      "thu": [11, 22], "fri": [11, 23], "sat": [11, 23], "sun": [11, 22]
+    },
+    "rating": 4.2,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_032",
+    "name": "Zero Gravity Beach Club",
+    "city": "Dubai",
+    "lat": 25.1090,
+    "lon": 55.1617,
+    "category": "nightlife",
+    "tags": ["beach-club", "pool", "dj", "views"],
+    "avg_cost_usd": 50,
+    "avg_duration_minutes": 180,
+    "opening_hours": {
+      "mon": [12, 2], "tue": [12, 2], "wed": [12, 2],
+      "thu": [12, 3], "fri": [12, 3], "sat": [12, 3], "sun": [12, 2]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": false
+  },
+  {
+    "id": "dxb_033",
+    "name": "Dubai Creek Golf Club",
+    "city": "Dubai",
+    "lat": 25.2300,
+    "lon": 55.3300,
+    "category": "nature",
+    "tags": ["golf", "creek-view", "dhow-club"],
+    "avg_cost_usd": 30,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [7, 22], "tue": [7, 22], "wed": [7, 22],
+      "thu": [7, 22], "fri": [6, 22], "sat": [6, 22], "sun": [6, 22]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_034",
+    "name": "XLine Dubai Marina",
+    "city": "Dubai",
+    "lat": 25.0820,
+    "lon": 55.1425,
+    "category": "adventure",
+    "tags": ["zipline", "marina", "thrill", "unique"],
+    "avg_cost_usd": 55,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 22], "sat": [10, 22], "sun": [10, 21]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": false
+  },
+  {
+    "id": "dxb_035",
+    "name": "Museum of the Future",
+    "city": "Dubai",
+    "lat": 25.2200,
+    "lon": 55.2820,
+    "category": "museum",
+    "tags": ["futuristic", "technology", "innovation", "torus-building"],
+    "avg_cost_usd": 40,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 20], "tue": [10, 20], "wed": [10, 20],
+      "thu": [10, 20], "fri": [10, 20], "sat": [10, 20], "sun": [10, 20]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_036",
+    "name": "Dubai Heritage Village",
+    "city": "Dubai",
+    "lat": 25.2590,
+    "lon": 55.2975,
+    "category": "cultural",
+    "tags": ["heritage", "traditional-crafts", "falconry", "pearl-diving"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 22], "tue": [8, 22], "wed": [8, 22],
+      "thu": [8, 22], "fri": [8, 22], "sat": [8, 22], "sun": [8, 22]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_037",
+    "name": "Pierchic Seafood Restaurant",
+    "city": "Dubai",
+    "lat": 25.1370,
+    "lon": 55.1805,
+    "category": "food",
+    "tags": ["seafood", "over-water", "romantic", "burj-view"],
+    "avg_cost_usd": 90,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [12, 23], "tue": [12, 23], "wed": [12, 23],
+      "thu": [12, 23], "fri": [12, 23], "sat": [12, 23], "sun": [12, 23]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "dxb_038",
+    "name": "Bluewaters Island",
+    "city": "Dubai",
+    "lat": 25.0768,
+    "lon": 55.1218,
+    "category": "landmark",
+    "tags": ["ain-dubai", "ferris-wheel", "restaurants", "waterfront"],
+    "avg_cost_usd": 35,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 23], "tue": [10, 23], "wed": [10, 23],
+      "thu": [10, 23], "fri": [10, 24], "sat": [10, 24], "sun": [10, 23]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_039",
+    "name": "Camel Race Track Al Marmoom",
+    "city": "Dubai",
+    "lat": 24.9498,
+    "lon": 55.4000,
+    "category": "cultural",
+    "tags": ["camel-racing", "traditional", "free", "unique"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "fri": [7, 9], "sat": [7, 9]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "dxb_040",
+    "name": "Dubai Night Market (Ripe Market)",
+    "city": "Dubai",
+    "lat": 25.2050,
+    "lon": 55.2450,
+    "category": "food",
+    "tags": ["market", "local", "organic", "artisan"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "fri": [16, 22], "sat": [16, 22]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  }
+]

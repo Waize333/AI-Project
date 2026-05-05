@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ist_001",
+    "name": "Hagia Sophia",
+    "city": "Istanbul",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "category": "religious",
+    "tags": ["byzantine", "iconic", "history", "mosque"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.8,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_002",
+    "name": "Topkapi Palace",
+    "city": "Istanbul",
+    "lat": 41.0115,
+    "lon": 28.9833,
+    "category": "landmark",
+    "tags": ["ottoman", "palace", "history", "harem"],
+    "avg_cost_usd": 20,
+    "avg_duration_minutes": 150,
+    "opening_hours": {
+      "mon": [9, 18], "wed": [9, 18], "thu": [9, 18],
+      "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_003",
+    "name": "Blue Mosque (Sultan Ahmed)",
+    "city": "Istanbul",
+    "lat": 41.0054,
+    "lon": 28.9768,
+    "category": "religious",
+    "tags": ["ottoman", "mosque", "iconic", "six-minarets"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_004",
+    "name": "Grand Bazaar",
+    "city": "Istanbul",
+    "lat": 41.0106,
+    "lon": 28.9682,
+    "category": "shopping",
+    "tags": ["bazaar", "spices", "carpets", "jewelry"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [9, 19], "tue": [9, 19], "wed": [9, 19],
+      "thu": [9, 19], "fri": [9, 19], "sat": [9, 19]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_005",
+    "name": "Galata Tower",
+    "city": "Istanbul",
+    "lat": 41.0256,
+    "lon": 28.9742,
+    "category": "landmark",
+    "tags": ["viewpoint", "medieval", "tower", "bosphorus"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 22], "tue": [9, 22], "wed": [9, 22],
+      "thu": [9, 22], "fri": [9, 22], "sat": [9, 22], "sun": [9, 22]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_006",
+    "name": "Dolmabahçe Palace",
+    "city": "Istanbul",
+    "lat": 41.0392,
+    "lon": 29.0007,
+    "category": "landmark",
+    "tags": ["ottoman", "palace", "bosphorus", "luxury"],
+    "avg_cost_usd": 18,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [9, 16], "wed": [9, 16], "thu": [9, 16],
+      "fri": [9, 16], "sat": [9, 16], "sun": [9, 16]
+    },
+    "rating": 4.6,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_007",
+    "name": "Spice Bazaar (Egyptian Bazaar)",
+    "city": "Istanbul",
+    "lat": 41.0162,
+    "lon": 28.9715,
+    "category": "shopping",
+    "tags": ["spices", "nuts", "sweets", "local"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 19], "tue": [8, 19], "wed": [8, 19],
+      "thu": [8, 19], "fri": [8, 19], "sat": [8, 19], "sun": [10, 18]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_008",
+    "name": "Basilica Cistern",
+    "city": "Istanbul",
+    "lat": 41.0079,
+    "lon": 28.9779,
+    "category": "landmark",
+    "tags": ["underground", "byzantine", "columns", "medusa"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_009",
+    "name": "Istanbul Archaeological Museum",
+    "city": "Istanbul",
+    "lat": 41.0122,
+    "lon": 28.9829,
+    "category": "museum",
+    "tags": ["archaeology", "ancient", "artifacts"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_010",
+    "name": "Chora Church (Kariye Museum)",
+    "city": "Istanbul",
+    "lat": 41.0280,
+    "lon": 28.9380,
+    "category": "religious",
+    "tags": ["byzantine", "mosaics", "history"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_011",
+    "name": "Bosphorus Cruise",
+    "city": "Istanbul",
+    "lat": 41.0256,
+    "lon": 29.0050,
+    "category": "adventure",
+    "tags": ["bosphorus", "boat", "scenic", "two-continents"],
+    "avg_cost_usd": 25,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [10, 18], "tue": [10, 18], "wed": [10, 18],
+      "thu": [10, 18], "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_012",
+    "name": "Istiklal Avenue",
+    "city": "Istanbul",
+    "lat": 41.0335,
+    "lon": 28.9777,
+    "category": "cultural",
+    "tags": ["boulevard", "shopping", "tram", "nightlife"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_013",
+    "name": "Turkish and Islamic Arts Museum",
+    "city": "Istanbul",
+    "lat": 41.0057,
+    "lon": 28.9769,
+    "category": "museum",
+    "tags": ["islamic-art", "carpets", "calligraphy"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_014",
+    "name": "Ortaköy Mosque",
+    "city": "Istanbul",
+    "lat": 41.0480,
+    "lon": 29.0280,
+    "category": "religious",
+    "tags": ["bosphorus", "bridge", "ottoman", "instagram"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_015",
+    "name": "Süleymaniye Mosque",
+    "city": "Istanbul",
+    "lat": 41.0163,
+    "lon": 28.9640,
+    "category": "religious",
+    "tags": ["sinan", "ottoman", "hilltop", "courtyard"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [13, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.7,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_016",
+    "name": "Galata Bridge",
+    "city": "Istanbul",
+    "lat": 41.0178,
+    "lon": 28.9744,
+    "category": "landmark",
+    "tags": ["bridge", "fishing", "golden-horn"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_017",
+    "name": "Istanbul Modern",
+    "city": "Istanbul",
+    "lat": 41.0280,
+    "lon": 29.0050,
+    "category": "museum",
+    "tags": ["modern-art", "turkish-artists", "bosphorus"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 20], "thu": [10, 18],
+      "fri": [10, 18], "sat": [10, 18], "sun": [10, 18]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_018",
+    "name": "Pera Museum",
+    "city": "Istanbul",
+    "lat": 41.0317,
+    "lon": 28.9771,
+    "category": "museum",
+    "tags": ["orientalism", "art", "beyoglu"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "tue": [10, 18], "wed": [10, 18], "thu": [10, 18],
+      "fri": [10, 18], "sat": [10, 18], "sun": [11, 18]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_019",
+    "name": "Balat Neighborhood",
+    "city": "Istanbul",
+    "lat": 41.0269,
+    "lon": 28.9461,
+    "category": "cultural",
+    "tags": ["colorful", "historic", "jewish-greek", "bohemian"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_020",
+    "name": "Pierre Loti Hill",
+    "city": "Istanbul",
+    "lat": 41.0427,
+    "lon": 28.9298,
+    "category": "nature",
+    "tags": ["cable-car", "golden-horn-view", "tea-garden"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [8, 22], "tue": [8, 22], "wed": [8, 22],
+      "thu": [8, 22], "fri": [8, 22], "sat": [8, 22], "sun": [8, 22]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_021",
+    "name": "Rumeli Fortress",
+    "city": "Istanbul",
+    "lat": 41.0883,
+    "lon": 29.0558,
+    "category": "landmark",
+    "tags": ["castle", "bosphorus", "ottoman", "conquest"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [9, 17], "wed": [9, 17], "thu": [9, 17],
+      "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_022",
+    "name": "Yildiz Palace",
+    "city": "Istanbul",
+    "lat": 41.0582,
+    "lon": 29.0142,
+    "category": "landmark",
+    "tags": ["palace", "park", "abdulhamid", "ottoman"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "wed": [9, 17], "thu": [9, 17], "fri": [9, 17],
+      "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_023",
+    "name": "Rahmi Koç Museum",
+    "city": "Istanbul",
+    "lat": 41.0395,
+    "lon": 28.9443,
+    "category": "museum",
+    "tags": ["industrial", "transportation", "hands-on", "submarine"],
+    "avg_cost_usd": 12,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "tue": [10, 17], "wed": [10, 17], "thu": [10, 17],
+      "fri": [10, 17], "sat": [10, 17], "sun": [10, 17]
+    },
+    "rating": 4.5,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_024",
+    "name": "Emirgan Park",
+    "city": "Istanbul",
+    "lat": 41.1098,
+    "lon": 29.0520,
+    "category": "nature",
+    "tags": ["park", "tulips", "bosphorus-view", "tea"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_025",
+    "name": "Beyoğlu Çiçek Pasajı",
+    "city": "Istanbul",
+    "lat": 41.0330,
+    "lon": 28.9783,
+    "category": "cultural",
+    "tags": ["flowers", "historic-arcade", "meyhane", "fish"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [9, 23], "tue": [9, 23], "wed": [9, 23],
+      "thu": [9, 23], "fri": [9, 23], "sat": [9, 23], "sun": [10, 22]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_026",
+    "name": "Çemberlitaş Hamam",
+    "city": "Istanbul",
+    "lat": 41.0089,
+    "lon": 28.9746,
+    "category": "cultural",
+    "tags": ["hammam", "sinan", "relaxation", "ottoman-bath"],
+    "avg_cost_usd": 40,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 24], "tue": [8, 24], "wed": [8, 24],
+      "thu": [8, 24], "fri": [8, 24], "sat": [8, 24], "sun": [8, 24]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  },
+  {
+    "id": "ist_027",
+    "name": "Miniatürk",
+    "city": "Istanbul",
+    "lat": 41.0673,
+    "lon": 28.9493,
+    "category": "cultural",
+    "tags": ["miniature-park", "turkish-landmarks", "family"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "fri": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.2,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_028",
+    "name": "Nişantaşı Shopping District",
+    "city": "Istanbul",
+    "lat": 41.0497,
+    "lon": 28.9967,
+    "category": "shopping",
+    "tags": ["luxury", "boutiques", "restaurants", "upscale"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 21], "sun": [12, 20]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_029",
+    "name": "Karaköy Fish Market",
+    "city": "Istanbul",
+    "lat": 41.0243,
+    "lon": 28.9749,
+    "category": "food",
+    "tags": ["fish-sandwich", "local", "street-food", "golden-horn"],
+    "avg_cost_usd": 5,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [9, 21], "tue": [9, 21], "wed": [9, 21],
+      "thu": [9, 21], "fri": [9, 21], "sat": [9, 21], "sun": [9, 21]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_030",
+    "name": "Bebek Neighborhood",
+    "city": "Istanbul",
+    "lat": 41.0760,
+    "lon": 29.0420,
+    "category": "cultural",
+    "tags": ["bosphorus", "cafes", "upscale", "stroll"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_031",
+    "name": "Kadıköy Market",
+    "city": "Istanbul",
+    "lat": 40.9908,
+    "lon": 29.0238,
+    "category": "food",
+    "tags": ["asian-side", "market", "local-food", "coffee"],
+    "avg_cost_usd": 10,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [8, 21], "tue": [8, 21], "wed": [8, 21],
+      "thu": [8, 21], "fri": [8, 21], "sat": [8, 21], "sun": [9, 20]
+    },
+    "rating": 4.6,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_032",
+    "name": "Fatih Mosque",
+    "city": "Istanbul",
+    "lat": 41.0197,
+    "lon": 28.9498,
+    "category": "religious",
+    "tags": ["ottoman", "mosque", "historical"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 45,
+    "opening_hours": {
+      "mon": [9, 18], "tue": [9, 18], "wed": [9, 18],
+      "thu": [9, 18], "sat": [9, 18], "sun": [9, 18]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_033",
+    "name": "Panorama 1453 Museum",
+    "city": "Istanbul",
+    "lat": 41.0128,
+    "lon": 28.9253,
+    "category": "museum",
+    "tags": ["conquest", "panorama", "diorama", "ottoman"],
+    "avg_cost_usd": 8,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 17], "tue": [9, 17], "wed": [9, 17],
+      "thu": [9, 17], "fri": [9, 17], "sat": [9, 17], "sun": [9, 17]
+    },
+    "rating": 4.3,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_034",
+    "name": "Yıldız Park",
+    "city": "Istanbul",
+    "lat": 41.0580,
+    "lon": 29.0137,
+    "category": "nature",
+    "tags": ["park", "forest", "palace", "green"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [7, 21], "tue": [7, 21], "wed": [7, 21],
+      "thu": [7, 21], "fri": [7, 21], "sat": [7, 21], "sun": [7, 21]
+    },
+    "rating": 4.4,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_035",
+    "name": "Istanbul Aquarium",
+    "city": "Istanbul",
+    "lat": 41.0725,
+    "lon": 28.7791,
+    "category": "adventure",
+    "tags": ["aquarium", "marine-life", "sharks", "tunnel"],
+    "avg_cost_usd": 18,
+    "avg_duration_minutes": 90,
+    "opening_hours": {
+      "mon": [10, 21], "tue": [10, 21], "wed": [10, 21],
+      "thu": [10, 21], "fri": [10, 21], "sat": [10, 22], "sun": [10, 22]
+    },
+    "rating": 4.1,
+    "indoor": true,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_036",
+    "name": "Kuzguncuk Neighborhood",
+    "city": "Istanbul",
+    "lat": 41.0397,
+    "lon": 29.0422,
+    "category": "cultural",
+    "tags": ["asian-side", "colorful", "peaceful", "greek-jewish"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_037",
+    "name": "Çırağan Palace Hotel Terrace",
+    "city": "Istanbul",
+    "lat": 41.0490,
+    "lon": 29.0248,
+    "category": "food",
+    "tags": ["bosphorus-view", "afternoon-tea", "palace", "luxury"],
+    "avg_cost_usd": 35,
+    "avg_duration_minutes": 75,
+    "opening_hours": {
+      "mon": [11, 23], "tue": [11, 23], "wed": [11, 23],
+      "thu": [11, 23], "fri": [11, 23], "sat": [11, 23], "sun": [11, 23]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_038",
+    "name": "Bosphorus Bridge (15 July Martyrs)",
+    "city": "Istanbul",
+    "lat": 41.0461,
+    "lon": 29.0369,
+    "category": "landmark",
+    "tags": ["bridge", "two-continents", "bosphorus", "iconic"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 30,
+    "opening_hours": {
+      "mon": [0, 24], "tue": [0, 24], "wed": [0, 24],
+      "thu": [0, 24], "fri": [0, 24], "sat": [0, 24], "sun": [0, 24]
+    },
+    "rating": 4.5,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_039",
+    "name": "Arasta Bazaar",
+    "city": "Istanbul",
+    "lat": 41.0054,
+    "lon": 28.9777,
+    "category": "shopping",
+    "tags": ["tiles", "ceramics", "carpets", "behind-blue-mosque"],
+    "avg_cost_usd": 0,
+    "avg_duration_minutes": 60,
+    "opening_hours": {
+      "mon": [9, 19], "tue": [9, 19], "wed": [9, 19],
+      "thu": [9, 19], "fri": [9, 19], "sat": [9, 19], "sun": [9, 19]
+    },
+    "rating": 4.3,
+    "indoor": false,
+    "family_friendly": true
+  },
+  {
+    "id": "ist_040",
+    "name": "Tahtakale Meyhane",
+    "city": "Istanbul",
+    "lat": 41.0145,
+    "lon": 28.9660,
+    "category": "nightlife",
+    "tags": ["meyhane", "raki", "turkish-meze", "live-music"],
+    "avg_cost_usd": 30,
+    "avg_duration_minutes": 120,
+    "opening_hours": {
+      "mon": [17, 1], "tue": [17, 1], "wed": [17, 1],
+      "thu": [17, 1], "fri": [17, 2], "sat": [17, 2], "sun": [17, 24]
+    },
+    "rating": 4.4,
+    "indoor": true,
+    "family_friendly": false
+  }
+]
