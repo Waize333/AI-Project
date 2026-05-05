@@ -1,9 +1,14 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AI Travel Planner",
   description: "Classical AI — CSP, A*, K-Means, Genetic Algorithm",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -32,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span style={{ fontSize: 14, fontWeight: 600 }}>AI Travel Planner</span>
             </div>
 
-            <div style={{ display: "flex", gap: 20, fontSize: 12, color: "var(--text-3)" }}>
+            <div className="desktop-only" style={{ display: "flex", gap: 20, fontSize: 12, color: "var(--text-3)" }}>
               <span>K-Means</span>
               <span>CSP + AC-3</span>
               <span>A* Search</span>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useIsMobile } from "@/lib/useIsMobile";
 
 const STAGES = [
   { name:"K-Means Clustering",  detail:"POIs grouped into K geographic day-clusters", formula:"argmin Σ ||xᵢ−μₖ||²",    color:"#60A5FA" },
@@ -156,6 +157,7 @@ function GASvg({ active, frame }: { active:boolean; frame:number }) {
 interface Props { loading: boolean; hasResults?: boolean; }
 
 export default function AlgorithmVisualizer({ loading, hasResults=false }: Props) {
+  const isMobile = useIsMobile();
   const [active, setActive] = useState<number|null>(null);
   const [done,   setDone]   = useState<Set<number>>(()=>new Set<number>());
   const [frame,  setFrame]  = useState(0);
@@ -219,15 +221,18 @@ export default function AlgorithmVisualizer({ loading, hasResults=false }: Props
       </div>
 
       {/* Horizontal stage cards */}
-      <div style={{ display:"grid", gridTemplateColumns:"repeat(4,1fr)" }}>
+      <div style={{ display:"grid", gridTemplateColumns: isMobile ? "repeat(2,1fr)" : "repeat(4,1fr)" }}>
         {STAGES.map((s,i)=>{
           const isActive = active===i;
           const isDone   = done.has(i);
+          const hasBorderRight = isMobile ? i%2===0 : i<3;
+          const hasBorderBottom = isMobile && i<2;
 
           return (
             <div key={i} className={`shimmer-wrap ${isActive?"":""} anim-enter d${i+1}`}
               style={{
-                borderRight: i<3?"1px solid var(--border)":"none",
+                borderRight: hasBorderRight ? "1px solid var(--border)" : "none",
+                borderBottom: hasBorderBottom ? "1px solid var(--border)" : "none",
                 padding:"16px 16px 14px",
                 background: isActive ? `${s.color}07` : "transparent",
                 transition:"background 0.3s",

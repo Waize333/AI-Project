@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import type { Itinerary } from "@/lib/types";
 import DayCard from "./DayCard";
+import { useIsMobile } from "@/lib/useIsMobile";
 
 const MapView = dynamic(() => import("./MapView"), { ssr: false });
 
@@ -29,6 +30,7 @@ function fmt(m: number): string {
 }
 
 export default function ItineraryView({ itinerary, accentColor = "var(--accent)" }: Props) {
+  const isMobile = useIsMobile();
   const days = Object.values(itinerary.days).sort((a, b) => a.day - b.day);
   const pois = days.reduce((n, d) => n + d.pois.length, 0);
   const dest = itinerary.destination.toLowerCase();
@@ -81,14 +83,15 @@ export default function ItineraryView({ itinerary, accentColor = "var(--accent)"
       </div>
 
       {/* ── Stats row ──────────────────────────────── */}
-      <div style={{ display:"flex", border:"1px solid var(--border)", borderRadius:"var(--r)", overflow:"hidden" }}>
+      <div style={{ display:"grid", gridTemplateColumns: isMobile ? "repeat(3,1fr)" : "repeat(5,1fr)", border:"1px solid var(--border)", borderRadius:"var(--r)", overflow:"hidden" }}>
         {stats.map((s, i) => (
           <div key={s.label} style={{
-            flex:1, padding:"10px 0", textAlign:"center",
-            borderRight: i < stats.length-1 ? "1px solid var(--border)" : "none",
+            padding:"10px 0", textAlign:"center",
+            borderRight: (isMobile ? i%3 !== 2 : i < stats.length-1) ? "1px solid var(--border)" : "none",
+            borderBottom: (isMobile && i < 3) ? "1px solid var(--border)" : "none",
           }}>
             <div style={{ fontSize:10, color:"var(--text-3)", marginBottom:2 }}>{s.label}</div>
-            <div style={{ fontSize:14, fontWeight:600 }}>{s.value}</div>
+            <div style={{ fontSize: isMobile ? 12 : 14, fontWeight:600 }}>{s.value}</div>
             <div style={{ fontSize:9, color:"var(--text-3)", marginTop:1, textTransform:"uppercase", letterSpacing:"0.05em" }}>{s.unit}</div>
           </div>
         ))}

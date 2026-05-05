@@ -127,6 +127,11 @@ input[type="range"]::-moz-range-thumb {
   width: 1px; height: 1px; opacity: 0; border: none;
 }
 
+/* ─── Mobile ─────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .desktop-only { display: none !important; }
+}
+
 /* ─── Scrollbar ──────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg); }

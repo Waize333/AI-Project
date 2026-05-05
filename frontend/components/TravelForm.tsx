@@ -5,6 +5,7 @@ import { fetchCities } from "@/lib/api";
 import type { PlanRequest } from "@/lib/types";
 import { CATEGORIES } from "@/lib/types";
 import Slider from "@/components/Slider";
+import { useIsMobile } from "@/lib/useIsMobile";
 
 interface Props {
   onSubmit: (req: PlanRequest) => void;
@@ -51,6 +52,7 @@ function Pill({ active, color = "var(--accent)", onClick, children }: {
 
 /* ─── Main ───────────────────────────────────────────── */
 export default function TravelForm({ onSubmit, loading }: Props) {
+  const isMobile = useIsMobile();
   const [cities, setCities]           = useState<string[]>([]);
   const [dest, setDest]               = useState("");
   const [days, setDays]               = useState(3);
@@ -111,11 +113,11 @@ export default function TravelForm({ onSubmit, loading }: Props) {
         {/* Content */}
         <div style={{
           position:"absolute", bottom:0, left:0, right:0,
-          padding:"0 28px 20px",
+          padding: isMobile ? "0 16px 16px" : "0 28px 20px",
           maxWidth:1200, margin:"0 auto",
         }}>
           {/* City name */}
-          <div style={{ fontSize:34, fontWeight:700, color:"white", textTransform:"capitalize", lineHeight:1.15, letterSpacing:"-0.02em", textShadow:"0 2px 12px rgba(0,0,0,0.5)" }}>
+          <div style={{ fontSize: isMobile ? 26 : 34, fontWeight:700, color:"white", textTransform:"capitalize", lineHeight:1.15, letterSpacing:"-0.02em", textShadow:"0 2px 12px rgba(0,0,0,0.5)" }}>
             {dest || "Select a city"}
           </div>
           {meta.country && (
@@ -147,7 +149,7 @@ export default function TravelForm({ onSubmit, loading }: Props) {
 
       {/* ══ FORM CONTROLS BAR ═════════════════════════ */}
       <div style={{ background:"var(--surface)", borderBottom:"1px solid var(--border)" }}>
-        <div style={{ maxWidth:1200, margin:"0 auto", padding:"16px 28px" }}>
+        <div style={{ maxWidth:1200, margin:"0 auto", padding: isMobile ? "12px 16px" : "16px 28px" }}>
 
           {/* Row 1: Trip params + submit */}
           <div style={{ display:"flex", gap:10, alignItems:"flex-end", flexWrap:"wrap" }}>
@@ -197,7 +199,7 @@ export default function TravelForm({ onSubmit, loading }: Props) {
             </div>
 
             {/* Divider */}
-            <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />
+            {!isMobile && <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />}
 
             {/* Traveler */}
             <div>
@@ -210,7 +212,7 @@ export default function TravelForm({ onSubmit, loading }: Props) {
             </div>
 
             {/* Divider */}
-            <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />
+            {!isMobile && <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />}
 
             {/* Pace */}
             <div>
@@ -230,7 +232,7 @@ export default function TravelForm({ onSubmit, loading }: Props) {
             </div>
 
             {/* Divider */}
-            <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />
+            {!isMobile && <div style={{ width:1, height:36, background:"var(--border)", alignSelf:"flex-end", marginBottom:1 }} />}
 
             {/* Solver */}
             <div>
@@ -246,13 +248,14 @@ export default function TravelForm({ onSubmit, loading }: Props) {
             <div style={{ flex:1 }} />
 
             {/* Generate button */}
-            <div style={{ alignSelf:"flex-end" }}>
+            <div style={{ alignSelf:"flex-end", width: isMobile ? "100%" : undefined }}>
               <button type="submit" disabled={loading} style={{
                 padding:"8px 24px", borderRadius:"var(--r)", border:"none",
                 background:loading?"rgba(79,142,247,0.2)":"var(--accent)",
                 color:loading?"rgba(255,255,255,0.4)":"white",
                 fontSize:13, fontWeight:600, cursor:loading?"not-allowed":"pointer",
                 transition:"all 0.15s", whiteSpace:"nowrap", height:36,
+                width: isMobile ? "100%" : undefined,
               }}>
                 {loading?"Solving…":"Generate →"}
               </button>
@@ -285,7 +288,7 @@ export default function TravelForm({ onSubmit, loading }: Props) {
             </div>
 
             {/* Sliders — always visible, 5 columns */}
-            <div style={{ display:"grid", gridTemplateColumns:"repeat(5,1fr)", gap:"10px 20px" }}>
+            <div style={{ display:"grid", gridTemplateColumns: isMobile ? "repeat(2,1fr)" : "repeat(5,1fr)", gap:"10px 20px" }}>
               {CATEGORIES.map(cat => {
                 const avoided = mustAvoid.includes(cat);
                 const w = weights[cat]??0.5;

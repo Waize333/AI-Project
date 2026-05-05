@@ -1,6 +1,7 @@
 "use client";
 
 import type { Itinerary } from "@/lib/types";
+import { useIsMobile } from "@/lib/useIsMobile";
 
 interface Props { csp: Itinerary; ga: Itinerary; }
 
@@ -94,6 +95,7 @@ function MetricRow({ row, CSP, GA }: { row: Row; CSP: string; GA: string }) {
 }
 
 export default function ComparisonView({ csp, ga }: Props) {
+  const isMobile = useIsMobile();
   const cspPois = Object.values(csp.days).reduce((s, d) => s + d.pois.length, 0);
   const gaPois  = Object.values(ga.days).reduce((s, d) => s + d.pois.length, 0);
 
@@ -133,7 +135,7 @@ export default function ComparisonView({ csp, ga }: Props) {
     <div style={{ display:"flex", flexDirection:"column", gap:12 }}>
 
       {/* Solver header chips */}
-      <div style={{ display:"flex", gap:8 }}>
+      <div style={{ display:"flex", gap:8, flexWrap:"wrap" }}>
         {[
           { l:"CSP + A*",          c:CSP, sub:"AC-3 · MRV · LCV · A* routing" },
           { l:"Genetic Algorithm", c:GA,  sub:"Tournament · OX Crossover · Elitism" },
@@ -153,7 +155,7 @@ export default function ComparisonView({ csp, ga }: Props) {
 
       {/* Key insight banner — constraint satisfaction */}
       <div style={{
-        display:"grid", gridTemplateColumns:"1fr 1fr", gap:8,
+        display:"grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap:8,
       }}>
         <div style={{
           padding:"12px 14px", borderRadius:"var(--r)",
