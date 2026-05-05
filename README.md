@@ -1,9 +1,10 @@
 ---
-title: SFY AI Travel Planner API
+title: Ai Project
 emoji: ✈️
 colorFrom: blue
 colorTo: indigo
 sdk: docker
+app_port: 7860
 pinned: false
 ---
 
