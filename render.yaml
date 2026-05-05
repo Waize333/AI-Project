@@ -3,7 +3,6 @@ services:
     name: sfy-ai-travel-planner-api
     env: python
     plan: free
-    rootDir: AI-Project
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
     envVars:
@@ -16,7 +15,7 @@ services:
     name: sfy-ai-travel-planner
     env: static
     plan: free
-    rootDir: AI-Project/frontend
+    rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: out
     envVars:
