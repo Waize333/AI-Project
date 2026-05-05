@@ -132,6 +132,11 @@ def _build_preferences(req: PlanRequest) -> UserPreferences:
 # Routes
 # ---------------------------------------------------------------------------
 
+@app.get("/")
+def root() -> dict[str, str]:
+    return {"status": "ok", "docs": "/docs"}
+
+
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
