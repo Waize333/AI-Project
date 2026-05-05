@@ -3,8 +3,22 @@ services:
     name: sfy-ai-travel-planner-api
     env: python
     plan: free
+    rootDir: AI-Project
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
       - key: ALLOWED_ORIGINS
-        value: https://sfy-ai-travel-planner.vercel.app
+        value: https://sfy-ai-travel-planner.onrender.com
+
+  - type: web
+    name: sfy-ai-travel-planner
+    env: static
+    plan: free
+    rootDir: AI-Project/frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: out
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://sfy-ai-travel-planner-api.onrender.com
